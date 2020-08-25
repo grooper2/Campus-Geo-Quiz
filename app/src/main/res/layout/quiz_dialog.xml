@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <ProgressBar
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:max="100"
+            android:progress="0"
+            android:layout_gravity="center"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:textColor="@color/colorPrimary" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/wrong1"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:text="wrong1"
+            android:textColor="@color/colorPrimary"
+            android:layout_toLeftOf="@+id/wrong2"/>
+
+        <Button
+            android:id="@+id/wrong2"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:text="wrong2"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/wrong3"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:text="wrong3"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/answer"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:text="answer"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+</ScrollView>

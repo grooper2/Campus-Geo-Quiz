@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">campus geo quiz</string>
+    <string name="title_activity_maps">Panda Go</string>
+    <string name="title_activity_user_maps">UserMap</string>
+    <string name="Tutorial">Welcome to Campus Geo Quiz. Your main objective is to walk around campus
+        areas to find hidden objects and to collect them, once you find them you can click on them and
+        a quiz will appear, so be prepare to answer. If you answer correct you the objects will be stored into
+        you backpack.</string>
+</resources>
